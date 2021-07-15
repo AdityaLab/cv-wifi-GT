@@ -120,9 +120,7 @@ class COVID_model(Model):
         if self.current_step ==0:
             print('Category: '+self.cat)
             
-            #get_path = '/cv19wifi/tmp/network_modeling/simulation_output/usr_sets/set_118'+'_' + start_date+ '_'+self.abs_cat+ '.p'
-            #print(get_path)
-            #usr_nodes = pickle.load(open(get_path, 'rb'))
+ 
                 
            
         
@@ -134,7 +132,7 @@ class COVID_model(Model):
             self.asym = {}
             self.SIRD = {}
 
-            G0 = pd.read_pickle('/cv19wifi/tmp/network_modeling/coloc_proj/static_network.p')
+            G0 = pd.read_pickle('path_to_staic_network/static_network.p')
             
             usr_nodes = G0.nodes()
             #G0 = nx.relabel_nodes(G0, self.mapping)
