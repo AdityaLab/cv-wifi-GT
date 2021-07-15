@@ -16,7 +16,7 @@ def usr_collector(cat, starts, steps):
     
     steps = 118
     
-    abs_path = '/cv19wifi/tmp/network_modeling/simulation_output/usr_sets/'
+    abs_path = 'path_to_pickle_of_usrs/'
 
 
     td =1
