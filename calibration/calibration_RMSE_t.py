@@ -92,11 +92,11 @@ def experiment(cat, step_pol, p, I_asym, alpha, n, start_date, m):
 
     if gate:
         
-        saving_path = "/cv19wifi/tmp/network_modeling/simulation_output/calibration_output/" + cat+"_"+start_date+"_"+ "p:"+str(p)+"_" + 'I_asym:' +str(I_asym)+ '_' +"alpha:"+str(alpha)+ '_simu.pkl'
-        #saving_path = "/cv19wifi/tmp/network_modeling/simulation_output/" + cat+"_"+start_date+"_"+ "p:"+str(p)+"_" + 'I_asym:' +str(I_asym)+ '_' +"alpha:"+str(alpha)+ '_simu.pkl'
+        saving_path = "path_to_calibration_output/" + cat+"_"+start_date+"_"+ "p:"+str(p)+"_" + 'I_asym:' +str(I_asym)+ '_' +"alpha:"+str(alpha)+ '_simu.pkl'
+        #saving_path = "path_to_simulation_output/" + cat+"_"+start_date+"_"+ "p:"+str(p)+"_" + 'I_asym:' +str(I_asym)+ '_' +"alpha:"+str(alpha)+ '_simu.pkl'
         
-        saving_path_list = "/cv19wifi/tmp/network_modeling/simulation_output/calibration_output/" + cat+"_"+start_date+"_"+ "p:"+str(p)+"_" + 'I_asym:' +str(I_asym)+ '_' +"alpha:"+str(alpha)+ '_simu_list.pkl'
-        #saving_path_list = "/cv19wifi/tmp/network_modeling/simulation_output/" + cat+"_"+start_date+"_"+ "p:"+str(p)+"_" + 'I_asym:' +str(I_asym)+ '_' +"alpha:"+str(alpha)+ '_simu_list.pkl'
+        saving_path_list = "path_to_calibration_output/" + cat+"_"+start_date+"_"+ "p:"+str(p)+"_" + 'I_asym:' +str(I_asym)+ '_' +"alpha:"+str(alpha)+ '_simu_list.pkl'
+        #saving_path_list = "path_to_simulation_output/" + cat+"_"+start_date+"_"+ "p:"+str(p)+"_" + 'I_asym:' +str(I_asym)+ '_' +"alpha:"+str(alpha)+ '_simu_list.pkl'
                 
      
         if (os.path.isfile(saving_path)):
