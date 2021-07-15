@@ -151,7 +151,7 @@ class COVID_model(Model):
         if self.current_step ==0:
             print('Category: '+self.cat)
             
-            get_path = '/cv19wifi/tmp/network_modeling/simulation_output/usr_sets/set_118'+'_' + start_date+ '_'+self.abs_cat+ '.p'
+            get_path = '/path_to_pickle_of_usrs/set_118'+'_' + start_date+ '_'+self.abs_cat+ '.p'
             print(get_path)
             usr_nodes = pickle.load(open(get_path, 'rb'))
                 
