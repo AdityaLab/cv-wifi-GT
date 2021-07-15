@@ -53,7 +53,6 @@ class COVID_model(Model):
         
         self.Is0 = pd.read_csv('./fulton_data.csv')['Cases'].to_numpy() / 665
         
-        #self.degree_list = pd.read_pickle("/cv19wifi/tmp/network_modeling/degree_distribution_small_world_gt.p") 
         self.I_asym = I_asym
         
         
