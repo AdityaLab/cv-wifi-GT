@@ -261,9 +261,9 @@ def experiment(cat, step_pol, n, start_date, m):
 
     if gate:
         
-        saving_path = "/cv19wifi/tmp/network_modeling/simulation_output/" + cat+"_"+start_date+"_"+ 'pool_simu.pkl'
+        saving_path = "path_to_simulation_output/" + cat+"_"+start_date+"_"+ 'pool_simu.pkl'
         
-        saving_path_list = "/cv19wifi/tmp/network_modeling/simulation_output/" + cat+"_"+start_date+"_"+ 'pool_simu_list.pkl'
+        saving_path_list = "path_to_simulation_output/" + cat+"_"+start_date+"_"+ 'pool_simu_list.pkl'
         
      
         if (os.path.isfile(saving_path)):
