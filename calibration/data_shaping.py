@@ -20,19 +20,19 @@ td =1
 
 
 
-path_crs_30  = '/cv19wifi/tmp/network_modeling/coloc_proj/crs_pol_30_locs/' 
-path_pr = '/cv19wifi/tmp/network_modeling/coloc_proj/pr_pol_locs/' 
-path_all  = '/cv19wifi/tmp/network_modeling/coloc_proj/all_locs/' 
-path_res  = '/cv19wifi/tmp/network_modeling/coloc_proj/res_locs/' 
-path_netc  = '/cv19wifi/tmp/network_modeling/coloc_proj/netc_pol_loc/'
-path_mob = '/cv19wifi/tmp/network_modeling/mobil_proj/'
+path_crs_30  = 'path_to_colocation_projection/crs_pol_30_locs/' 
+path_pr = 'path_to_colocation_projection/pr_pol_locs/' 
+path_all  = 'path_to_colocation_projection/all_locs/' 
+path_res  = 'path_to_colocation_projection/res_locs/' 
+path_netc  = 'path_to_colocation_projection/netc_pol_loc/'
+path_mob = 'path_to_colocation_projection/mobil_proj/'
 
 
-path_ec = '/cv19wifi/tmp/network_modeling/coloc_proj/ec_pol_locs/'
+path_ec = 'path_to_colocation_projection/ec_pol_locs/'
 
-path_lc = '/cv19wifi/tmp/network_modeling/coloc_proj/lc_pol_locs/'
+path_lc = 'path_to_colocation_projection/lc_pol_locs/'
 
-path_bc = '/cv19wifi/tmp/network_modeling/coloc_proj/bc_pol_locs/'
+path_bc = 'path_to_colocation_projection/bc_pol_locs/'
 
 
 #OUT_DIR+'coloc_graph_'+POL+'_'+str(LEARNING_TIME)+'_'+str(CONSTRAINT)+'_'+date_str+'.p'
