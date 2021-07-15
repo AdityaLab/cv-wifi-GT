@@ -69,7 +69,7 @@ def experiment(cat, step_pol, p, I_asym, alpha, n, start_date, m):
             #output['coins'] = coins
             today_tmp = datemethod.strftime(datetime.utcnow(), '%Y%m%dZ%H%M%S')
             
-            saving_path_tmp = "/cv19wifi/tmp/network_modeling/simulation_output/static_outputs/" + cat+"_"+start_date+"_"+ "p:"+str(p)+"_" + 'I_asym:' +str(I_asym)+ '_' +"alpha:"+str(alpha)+ '_simu_breakdown_'+ today_tmp +'.pkl'
+            saving_path_tmp = "path_to_static_outputs/" + cat+"_"+start_date+"_"+ "p:"+str(p)+"_" + 'I_asym:' +str(I_asym)+ '_' +"alpha:"+str(alpha)+ '_simu_breakdown_'+ today_tmp +'.pkl'
         
             pickle.dump( output,  open( saving_path_tmp, "wb" ) )           
             
@@ -108,9 +108,9 @@ def experiment(cat, step_pol, p, I_asym, alpha, n, start_date, m):
 
     if gate:
         
-        saving_path = "/cv19wifi/tmp/network_modeling/simulation_output/static_outputs/" + cat+"_"+start_date+"_"+ "p:"+str(p)+"_" + 'I_asym:' +str(I_asym)+ '_' +"alpha:"+str(alpha)+ '_simu.pkl'
+        saving_path = "path_to_static_outputs/" + cat+"_"+start_date+"_"+ "p:"+str(p)+"_" + 'I_asym:' +str(I_asym)+ '_' +"alpha:"+str(alpha)+ '_simu.pkl'
         
-        saving_path_list = "/cv19wifi/tmp/network_modeling/simulation_output/static_outputs/" + cat+"_"+start_date+"_"+ "p:"+str(p)+"_" + 'I_asym:' +str(I_asym)+ '_' +"alpha:"+str(alpha)+ '_simu_list.pkl'
+        saving_path_list = "path_to_static_outputs/" + cat+"_"+start_date+"_"+ "p:"+str(p)+"_" + 'I_asym:' +str(I_asym)+ '_' +"alpha:"+str(alpha)+ '_simu_list.pkl'
         
      
         if (os.path.isfile(saving_path)):
